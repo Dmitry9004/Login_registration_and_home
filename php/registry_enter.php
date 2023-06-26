@@ -1,6 +1,6 @@
 
 <?php
-	//error_reporting(0);
+	error_reporting(0);
 	if(isset($_POST['login']) && isset($_POST['password'])){
 		require_once('Database.php');
 
@@ -21,6 +21,8 @@
 
 		$password = $_POST['password'];
 		$name = $_POST['name'];
+		
+		//here path to save space 
 		$folder = "/xampp_one/htdocs/images/";
 		$date = $_POST['date'];
 
@@ -32,7 +34,7 @@
 			if($stm_n->execute() && move_uploaded_file($_FILES["photo"]["tmp_name"],"$folder".$login)){
 				header('Location: index.php');
 			}else{
-				header("Location: registry.php?message=error_1");
+				header("Location: registry.php?message=error");
 			}
 	}catch(Exception $e){
 			echo $e;
