@@ -1,0 +1,62 @@
+body{
+	font-family: 'Inconsolata', monospace;
+}
+.section_enter{
+			display: flex;
+			justify-content: center;
+}
+.form_enter{
+	display: flex;
+	flex-direction: column;
+		display: flex;
+		flex-direction: column;
+		padding: .5em 1em;
+		border:1px solid green;
+}
+
+.contain_sb{
+	display: flex;
+	justify-content:center;
+	margin-top:1em;
+}
+.submit{
+	padding:.5em 2em;
+	color:green;
+	background-color: white;
+	border: 1px solid green;
+}
+.sign{
+	margin: 1em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	text-decoration: none;
+}
+.sign:hover{
+	text-decoration: underline;
+}
+
+.submit:hover{
+	padding:.5em 2.2em; 
+	border-color:#3dac2f;
+	background-color: #3dac2f;
+	box-shadow: 1px 5px 15px #3dac2f;
+	color:white;
+}
+.error{
+	box-shadow: 1px 2px 5px #f58a8a; 
+	background-color: #f58a8a;
+	border:1px solid #f58a8a;
+}
+.message{
+	padding:0 .2em;
+	margin-bottom: .5em;
+	text-align: center;	
+}
+label{
+		margin-bottom: 0.25em;
+}
+input{
+	margin:.5em;
+	margin-left: 0;
+	margin-top: 0;
+}
