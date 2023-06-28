@@ -79,28 +79,4 @@
  			$_SESSION['try_pass'] = 0;
  		}
  	}
-
-
-
- 	// 		// $data = array(
- 	// 		// 	'login' =>$row['login'],
- 	// 		// 	'name'  =>$row['name'],
- 	// 		// 	'photo' =>$row['photo'],
- 	// 		// 	'date'  =>$row['date_birth'],
- 	// 		// 	'MESSAGE'=> 'WELL DONE!!!!!!!'
- 	// 		// );
-
- 	// 		http_response_code(200);
- 	// 		header("Location: home.php");
- 	// 	}else{
- 	// 		http_response_code(404);
- 	// 		echo json_encode(array("MEASSAGE" => "ERROR"));
- 	// 		header("Location: index.php");
- 	// 	}
- 	// }else{
- 	// 	http_response_code(501);
- 	// 	header("Location: index.php");
- 	// 	echo json_encode(array("MESSAGE" => "ERROR"));
- 	// }
-	
 ?>
