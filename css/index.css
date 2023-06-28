@@ -2,16 +2,16 @@ body{
 	font-family: 'Inconsolata', monospace;
 }
 .section_enter{
-			display: flex;
-			justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .form_enter{
 	display: flex;
 	flex-direction: column;
-		display: flex;
-		flex-direction: column;
-		padding: .5em 1em;
-		border:1px solid green;
+	display: flex;	
+	flex-direction: column;
+	padding: .5em 1em;
+	border:1px solid green;
 }
 
 .contain_sb{
