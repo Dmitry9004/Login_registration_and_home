@@ -2,14 +2,14 @@ body{
 	font-family: 'Inconsolata', monospace;
 }
 .section_registry{
-		display: flex;
-		justify-content: center;
-	}
+	display: flex;
+	justify-content: center;
+}
 .form_registry{
-		display: flex;
-		flex-direction: column;
-		padding: .5em 1em;
-		border:1px solid green;
+	display: flex;
+	flex-direction: column;
+	padding: .5em 1em;
+	border:1px solid green;
 	}
 
 .error{
@@ -55,7 +55,7 @@ body{
 }
 
 label{
-		margin-bottom: 0.25em;
+	margin-bottom: 0.25em;
 }
 input{
 	margin:.5em;
