@@ -3,7 +3,6 @@ require_once("Database.php");
 
 	function get_tries($ip){
 		$conn = get_connection_enter();
-//SEE GLOBAL AND LOCAL PAREMENNS!!!!!!!!!!
 		try{
 			$stm = $conn->prepare("SELECT * FROM users_enter WHERE ip = ?");
 			$stm->bind_param("s",$ip);
